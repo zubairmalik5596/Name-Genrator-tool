@@ -226,6 +226,14 @@ window.addEventListener('resize',()=>{
 });
 
 animate();
+  // Input field me Enter press hone par start button ka function chalaye
+userNameInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){  // Enter press hua
+        startBtn.click();    // Button ka click simulate kare
+    }
+});
+
 </script>
 </body>
 </html>
+
